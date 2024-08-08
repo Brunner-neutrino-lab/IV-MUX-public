@@ -1,0 +1,622 @@
+EESchema Schematic File Version 4
+LIBS:iv-mux-cache
+EELAYER 29 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 4 19
+Title "IV Curve Multiplexer"
+Date "2019-11-12"
+Rev "1.0"
+Comp "McGill University Physics"
+Comment1 "Electronic Design Support Group"
+Comment2 "Eamon Egan"
+Comment3 "Brunner Neutrino Lab"
+Comment4 ""
+$EndDescr
+Text HLabel 1125 6050 0    50   Input ~ 0
+BG_OR_SENSE_A
+Text HLabel 900  675  0    50   Input ~ 0
+BIAS
+$Sheet
+S 6925 4700 625  1025
+U 5D3D4908
+F0 "Sheet5D3D4907" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 6925 4900 50 
+F3 "BG_OR_SENSE" I L 6925 5150 50 
+F4 "~RELAY" I L 6925 5400 50 
+F5 "BIAS_GUARD" I L 6925 5575 50 
+$EndSheet
+Wire Wire Line
+	2000 2975 2575 2975
+Wire Wire Line
+	3475 2975 4025 2975
+Wire Wire Line
+	4925 2975 5475 2975
+Wire Wire Line
+	6375 2975 6925 2975
+Wire Wire Line
+	6925 3475 6525 3475
+Entry Wire Line
+	6525 4350 6625 4450
+Wire Wire Line
+	5475 3475 5075 3475
+Wire Wire Line
+	5075 3475 5075 4350
+Entry Wire Line
+	5075 4350 5175 4450
+Wire Wire Line
+	4025 3475 3625 3475
+Wire Wire Line
+	3625 3475 3625 4350
+Entry Wire Line
+	3625 4350 3725 4450
+Wire Wire Line
+	2575 3475 2175 3475
+Wire Wire Line
+	2175 3475 2175 4350
+Entry Wire Line
+	2175 4350 2275 4450
+Wire Wire Line
+	6925 5400 6525 5400
+Wire Wire Line
+	6525 5400 6525 6275
+Wire Wire Line
+	6375 4900 6925 4900
+Wire Wire Line
+	6375 4900 6375 4525
+Wire Wire Line
+	6375 2600 6375 2975
+Wire Wire Line
+	4925 2975 4925 2600
+Connection ~ 4925 2600
+Wire Wire Line
+	4925 2600 6375 2600
+Wire Wire Line
+	3475 2975 3475 2600
+Connection ~ 3475 2600
+Wire Wire Line
+	3475 2600 4925 2600
+Wire Wire Line
+	2000 2975 2000 2600
+Wire Wire Line
+	2000 2600 3475 2600
+Connection ~ 6375 4525
+$Sheet
+S 2575 2775 625  1050
+U 5D45B73A
+F0 "sheet5D45B73A" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 2575 2975 50 
+F3 "BG_OR_SENSE" I L 2575 3225 50 
+F4 "~RELAY" I L 2575 3475 50 
+F5 "BIAS_GUARD" I L 2575 3675 50 
+$EndSheet
+$Sheet
+S 4025 2775 625  1050
+U 5D45E121
+F0 "sheet5D45E121" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 4025 2975 50 
+F3 "BG_OR_SENSE" I L 4025 3225 50 
+F4 "~RELAY" I L 4025 3475 50 
+F5 "BIAS_GUARD" I L 4025 3675 50 
+$EndSheet
+Wire Wire Line
+	6375 5150 6925 5150
+Wire Wire Line
+	6375 4125 6375 3225
+Wire Wire Line
+	6375 3225 6925 3225
+Wire Wire Line
+	6375 6050 6375 5150
+Wire Wire Line
+	4925 4125 4925 3225
+Wire Wire Line
+	4925 3225 5475 3225
+Wire Wire Line
+	3475 4175 3475 3225
+Wire Wire Line
+	3475 3225 4025 3225
+Wire Wire Line
+	2000 4175 2000 3225
+Wire Wire Line
+	2000 3225 2575 3225
+Wire Wire Line
+	2000 4175 3475 4175
+Wire Wire Line
+	3450 4900 4025 4900
+Wire Wire Line
+	4925 4900 5475 4900
+Wire Wire Line
+	5475 5400 5075 5400
+Wire Wire Line
+	4025 5400 3625 5400
+Wire Wire Line
+	2575 5400 2175 5400
+Wire Wire Line
+	2000 4900 2575 4900
+Wire Wire Line
+	2000 4900 2000 4525
+Wire Wire Line
+	4925 4900 4925 4525
+Connection ~ 4925 4525
+Wire Wire Line
+	3450 4900 3450 4525
+Wire Wire Line
+	2000 4525 3450 4525
+Connection ~ 3450 4525
+$Sheet
+S 4025 4700 625  1025
+U 5D9490BA
+F0 "sheet5D9490BA" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 4025 4900 50 
+F3 "BG_OR_SENSE" I L 4025 5150 50 
+F4 "~RELAY" I L 4025 5400 50 
+F5 "BIAS_GUARD" I L 4025 5575 50 
+$EndSheet
+$Sheet
+S 5475 4700 625  1025
+U 5D9490C0
+F0 "sheet5D9490C0" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 5475 4900 50 
+F3 "BG_OR_SENSE" I L 5475 5150 50 
+F4 "~RELAY" I L 5475 5400 50 
+F5 "BIAS_GUARD" I L 5475 5575 50 
+$EndSheet
+Wire Wire Line
+	2000 5150 2575 5150
+Wire Wire Line
+	2000 6050 3450 6050
+Wire Wire Line
+	2000 6050 2000 5150
+Wire Wire Line
+	4925 5150 5475 5150
+Connection ~ 4925 6050
+Wire Wire Line
+	3450 6050 3450 5150
+Wire Wire Line
+	3450 5150 4025 5150
+Connection ~ 3450 6050
+Wire Wire Line
+	3450 6050 4925 6050
+Entry Wire Line
+	2175 6275 2275 6375
+Entry Wire Line
+	3625 6275 3725 6375
+Entry Wire Line
+	5075 6275 5175 6375
+Entry Wire Line
+	6525 6275 6625 6375
+Connection ~ 2000 6050
+Wire Wire Line
+	2000 4175 1250 4175
+Wire Wire Line
+	1250 4175 1250 6050
+Wire Wire Line
+	1125 6050 1250 6050
+Connection ~ 2000 4175
+Connection ~ 1250 6050
+Wire Wire Line
+	1250 6050 2000 6050
+Wire Wire Line
+	6525 3475 6525 4350
+Wire Wire Line
+	2175 5400 2175 6275
+Wire Wire Line
+	3625 5400 3625 6275
+Wire Wire Line
+	5075 5400 5075 6275
+Wire Wire Line
+	900  675  1525 675 
+Connection ~ 2000 4525
+Wire Wire Line
+	1525 4525 1525 2600
+Wire Wire Line
+	1525 2600 2000 2600
+Wire Wire Line
+	1525 4525 2000 4525
+Connection ~ 2000 2600
+$Sheet
+S 6925 2775 625  1050
+U 5D463574
+F0 "sheet5D463574" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 6925 2975 50 
+F3 "BG_OR_SENSE" I L 6925 3225 50 
+F4 "~RELAY" I L 6925 3475 50 
+F5 "BIAS_GUARD" I L 6925 3675 50 
+$EndSheet
+$Sheet
+S 5475 2775 625  1050
+U 5D460AFE
+F0 "sheet5D460AFE" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 5475 2975 50 
+F3 "BG_OR_SENSE" I L 5475 3225 50 
+F4 "~RELAY" I L 5475 3475 50 
+F5 "BIAS_GUARD" I L 5475 3675 50 
+$EndSheet
+Wire Wire Line
+	4925 6050 4925 5150
+Wire Wire Line
+	3450 4525 4925 4525
+Text Label 2175 6250 1    50   ~ 0
+~ON0
+Text Label 3625 6250 1    50   ~ 0
+~ON1
+Text Label 5075 6250 1    50   ~ 0
+~ON2
+Text Label 6525 4320 1    50   ~ 0
+~ON9
+Text Label 6525 6250 1    50   ~ 0
+~ON3
+Text Label 2175 4335 1    50   ~ 0
+~ON6
+Text Label 3625 4335 1    50   ~ 0
+~ON7
+Text Label 5075 4325 1    50   ~ 0
+~ON8
+$Sheet
+S 9825 4700 625  1025
+U 5DBA72A9
+F0 "sheet5DBA72A9" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 9825 4900 50 
+F3 "BG_OR_SENSE" I L 9825 5150 50 
+F4 "~RELAY" I L 9825 5400 50 
+F5 "BIAS_GUARD" I L 9825 5575 50 
+$EndSheet
+Wire Wire Line
+	7825 2975 8375 2975
+Wire Wire Line
+	9275 2975 9825 2975
+Wire Wire Line
+	9825 3475 9425 3475
+Entry Wire Line
+	9425 4350 9525 4450
+Wire Wire Line
+	8375 3475 7975 3475
+Wire Wire Line
+	7975 3475 7975 4350
+Entry Wire Line
+	7975 4350 8075 4450
+Wire Wire Line
+	9825 5400 9425 5400
+Wire Wire Line
+	9425 5400 9425 6275
+Wire Wire Line
+	9275 4900 9825 4900
+Wire Wire Line
+	9275 4900 9275 4525
+Wire Wire Line
+	9275 2600 9275 2975
+Wire Wire Line
+	7825 2975 7825 2600
+Connection ~ 7825 2600
+Wire Wire Line
+	7825 2600 9275 2600
+Wire Wire Line
+	6375 2600 7825 2600
+Wire Wire Line
+	9275 5150 9825 5150
+Wire Wire Line
+	9275 4125 9275 3225
+Wire Wire Line
+	9275 3225 9825 3225
+Wire Wire Line
+	9275 6050 9275 5150
+Wire Wire Line
+	7825 4125 7825 3225
+Wire Wire Line
+	7825 3225 8375 3225
+Connection ~ 7825 4125
+Wire Wire Line
+	7825 4125 9275 4125
+Wire Wire Line
+	6375 4125 7825 4125
+Wire Wire Line
+	7825 4900 8375 4900
+Wire Wire Line
+	8375 5400 7975 5400
+Wire Wire Line
+	7825 4900 7825 4525
+Connection ~ 7825 4525
+$Sheet
+S 8375 4700 625  1025
+U 5DBA72CE
+F0 "sheet5DBA72CE" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 8375 4900 50 
+F3 "BG_OR_SENSE" I L 8375 5150 50 
+F4 "~RELAY" I L 8375 5400 50 
+F5 "BIAS_GUARD" I L 8375 5575 50 
+$EndSheet
+Wire Wire Line
+	7825 5150 8375 5150
+Connection ~ 7825 6050
+Wire Wire Line
+	7825 6050 9275 6050
+Wire Wire Line
+	7825 4525 9275 4525
+Entry Wire Line
+	7975 6275 8075 6375
+Entry Wire Line
+	9425 6275 9525 6375
+Wire Wire Line
+	9425 3475 9425 4350
+Wire Wire Line
+	7975 5400 7975 6275
+$Sheet
+S 9825 2775 625  1050
+U 5DBA72DD
+F0 "sheet5DBA72DD" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 9825 2975 50 
+F3 "BG_OR_SENSE" I L 9825 3225 50 
+F4 "~RELAY" I L 9825 3475 50 
+F5 "BIAS_GUARD" I L 9825 3675 50 
+$EndSheet
+$Sheet
+S 8375 2775 625  1050
+U 5DBA72E3
+F0 "sheet5DBA72E3" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 8375 2975 50 
+F3 "BG_OR_SENSE" I L 8375 3225 50 
+F4 "~RELAY" I L 8375 3475 50 
+F5 "BIAS_GUARD" I L 8375 3675 50 
+$EndSheet
+Wire Wire Line
+	7825 6050 7825 5150
+Text Label 7975 6250 1    50   ~ 0
+~ON4
+Text Label 9425 6250 1    50   ~ 0
+~ON5
+Text Label 7975 4325 1    50   ~ 0
+~ON10
+Connection ~ 6375 2600
+Connection ~ 6375 4125
+Connection ~ 6375 6050
+Wire Wire Line
+	6375 6050 7825 6050
+Wire Wire Line
+	6375 4525 7825 4525
+$Sheet
+S 2575 4700 625  1025
+U 5D9490A1
+F0 "sheet5D9490A1" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 2575 4900 50 
+F3 "BG_OR_SENSE" I L 2575 5150 50 
+F4 "~RELAY" I L 2575 5400 50 
+F5 "BIAS_GUARD" I L 2575 5575 50 
+$EndSheet
+Wire Wire Line
+	4925 4125 6375 4125
+Connection ~ 1775 4450
+Wire Bus Line
+	1775 4450 1775 6375
+Wire Wire Line
+	3450 1050 4025 1050
+Wire Wire Line
+	4925 1050 5475 1050
+Wire Wire Line
+	5475 1550 5075 1550
+Wire Wire Line
+	4025 1550 3625 1550
+Wire Wire Line
+	2575 1550 2175 1550
+Wire Wire Line
+	2000 1050 2575 1050
+Wire Wire Line
+	2000 1050 2000 675 
+Wire Wire Line
+	4925 1050 4925 675 
+Wire Wire Line
+	3450 1050 3450 675 
+Wire Wire Line
+	2000 675  3450 675 
+Connection ~ 3450 675 
+$Sheet
+S 4025 850  625  1050
+U 5DC032E3
+F0 "sheet5DC032E3" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 4025 1050 50 
+F3 "BG_OR_SENSE" I L 4025 1300 50 
+F4 "~RELAY" I L 4025 1550 50 
+F5 "BIAS_GUARD" I L 4025 1750 50 
+$EndSheet
+Wire Wire Line
+	2000 1300 2575 1300
+Wire Wire Line
+	2000 2200 3450 2200
+Wire Wire Line
+	2000 2200 2000 1300
+Wire Wire Line
+	4925 1300 5475 1300
+Wire Wire Line
+	3450 2200 3450 1300
+Wire Wire Line
+	3450 1300 4025 1300
+Connection ~ 3450 2200
+Wire Wire Line
+	3450 2200 4925 2200
+Entry Wire Line
+	2175 2425 2275 2525
+Entry Wire Line
+	3625 2425 3725 2525
+Entry Wire Line
+	5075 2425 5175 2525
+Connection ~ 2000 2200
+Wire Wire Line
+	1250 2200 2000 2200
+Wire Wire Line
+	2175 1550 2175 2425
+Wire Wire Line
+	3625 1550 3625 2425
+Wire Wire Line
+	5075 1550 5075 2425
+Connection ~ 2000 675 
+Wire Wire Line
+	4925 2200 4925 1300
+Wire Wire Line
+	3450 675  4925 675 
+Text Label 2175 2400 1    50   ~ 0
+~ON12
+Text Label 3625 2400 1    50   ~ 0
+~ON13
+Text Label 5075 2400 1    50   ~ 0
+~ON14
+Wire Wire Line
+	1525 2600 1525 675 
+Connection ~ 1525 2600
+Wire Wire Line
+	1525 675  2000 675 
+Connection ~ 1525 675 
+Wire Bus Line
+	1775 2525 1775 4450
+Wire Bus Line
+	1775 6375 1125 6375
+Connection ~ 1775 6375
+Text HLabel 1125 6375 0    50   Input ~ 0
+~ON[0..14]
+Wire Wire Line
+	6350 4525 6375 4525
+Wire Wire Line
+	6350 6050 6375 6050
+Wire Wire Line
+	4925 4525 6375 4525
+Wire Wire Line
+	4925 6050 6375 6050
+$Sheet
+S 2575 850  625  1050
+U 5DC03363
+F0 "sheet5DC03363" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 2575 1050 50 
+F3 "BG_OR_SENSE" I L 2575 1300 50 
+F4 "~RELAY" I L 2575 1550 50 
+F5 "BIAS_GUARD" I L 2575 1750 50 
+$EndSheet
+$Sheet
+S 5475 850  625  1050
+U 5DC032E8
+F0 "sheet5DC032E8" 50
+F1 "bias-relay.sch" 50
+F2 "BIAS" I L 5475 1050 50 
+F3 "BG_OR_SENSE" I L 5475 1300 50 
+F4 "~RELAY" I L 5475 1550 50 
+F5 "BIAS_GUARD" I L 5475 1750 50 
+$EndSheet
+Text Label 9425 4320 1    50   ~ 0
+~ON11
+Wire Wire Line
+	5475 3675 5300 3675
+Wire Wire Line
+	5300 6650 3850 6650
+Wire Wire Line
+	2575 1750 2400 1750
+Wire Wire Line
+	2400 1750 2400 3675
+Connection ~ 2400 6650
+Wire Wire Line
+	2400 6650 1150 6650
+Wire Wire Line
+	3850 1750 4025 1750
+Connection ~ 3850 6650
+Wire Wire Line
+	3850 6650 2400 6650
+Wire Wire Line
+	5475 1750 5300 1750
+Wire Wire Line
+	5300 1750 5300 3675
+Connection ~ 5300 3675
+Wire Wire Line
+	5300 3675 5300 5575
+Wire Wire Line
+	5300 6650 6750 6650
+Wire Wire Line
+	6750 6650 6750 5575
+Wire Wire Line
+	6750 3675 6925 3675
+Connection ~ 5300 6650
+Wire Wire Line
+	8375 3675 8200 3675
+Wire Wire Line
+	8200 6650 6750 6650
+Connection ~ 6750 6650
+Wire Wire Line
+	8200 6650 9650 6650
+Wire Wire Line
+	9650 6650 9650 5575
+Wire Wire Line
+	9650 3675 9825 3675
+Connection ~ 8200 6650
+Wire Wire Line
+	2575 3675 2400 3675
+Connection ~ 2400 3675
+Wire Wire Line
+	2400 3675 2400 5575
+Wire Wire Line
+	4025 3675 3850 3675
+Connection ~ 3850 3675
+Wire Wire Line
+	3850 3675 3850 1750
+Wire Wire Line
+	9825 5575 9650 5575
+Connection ~ 9650 5575
+Wire Wire Line
+	9650 5575 9650 3675
+Wire Wire Line
+	6925 5575 6750 5575
+Connection ~ 6750 5575
+Wire Wire Line
+	6750 5575 6750 3675
+Wire Wire Line
+	5475 5575 5300 5575
+Connection ~ 5300 5575
+Wire Wire Line
+	5300 5575 5300 6650
+Wire Wire Line
+	4025 5575 3850 5575
+Wire Wire Line
+	3850 3675 3850 5575
+Connection ~ 3850 5575
+Wire Wire Line
+	3850 5575 3850 6650
+Wire Wire Line
+	2575 5575 2400 5575
+Connection ~ 2400 5575
+Wire Wire Line
+	2400 5575 2400 6650
+Text HLabel 1150 6650 0    50   Input ~ 0
+BIAS_GUARD
+Wire Wire Line
+	8200 5575 8200 6650
+Wire Wire Line
+	8200 3675 8200 5575
+Connection ~ 8200 5575
+Wire Wire Line
+	8375 5575 8200 5575
+Text HLabel 1125 4125 0    50   Input ~ 0
+BG_OR_SENSE_B
+Wire Wire Line
+	1250 2200 1250 4125
+Wire Wire Line
+	1250 4125 1125 4125
+Wire Wire Line
+	1250 4125 4925 4125
+Connection ~ 1250 4125
+Connection ~ 4925 4125
+Wire Bus Line
+	1775 2525 5175 2525
+Wire Bus Line
+	1775 4450 9525 4450
+Wire Bus Line
+	1775 6375 9525 6375
+$EndSCHEMATC

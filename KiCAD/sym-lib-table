@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name iv-mux)(type Legacy)(uri ${KIPRJMOD}/iv-mux.lib)(options "")(descr ""))
+)

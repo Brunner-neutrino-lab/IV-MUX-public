@@ -1,0 +1,183 @@
+EESchema Schematic File Version 4
+LIBS:iv-mux-cache
+EELAYER 29 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 19 21
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3200 2500 3650 2500
+Wire Wire Line
+	5050 2500 5050 3050
+Wire Wire Line
+	3650 2500 3650 3050
+Wire Wire Line
+	3650 3050 4200 3050
+Connection ~ 3650 2500
+Wire Wire Line
+	3650 2500 5050 2500
+Wire Wire Line
+	4950 2750 4950 3300
+Wire Wire Line
+	3550 2750 3550 3300
+Wire Wire Line
+	3550 3300 4200 3300
+Wire Wire Line
+	3550 2750 4950 2750
+$Sheet
+S 4200 2900 650  800 
+U 5D2FD2F1
+F0 "sheet5D2FD271" 50
+F1 "sense-relay.sch" 50
+F2 "SENSE" I L 4200 3050 50 
+F3 "SHIELD" I L 4200 3300 50 
+F4 "ON" I L 4200 3550 50 
+$EndSheet
+Text HLabel 3200 2500 0    50   Input ~ 0
+SENSE
+Text HLabel 3200 2750 0    50   Input ~ 0
+SHIELD
+Wire Wire Line
+	3200 2750 3550 2750
+Connection ~ 3550 2750
+Wire Wire Line
+	4200 3550 3750 3550
+Text Label 3800 3550 0    50   ~ 0
+ON0
+Text Label 5050 3550 0    50   ~ 0
+ON1
+$Comp
+L Switch:SW_DIP_x05 SW?
+U 1 1 5D534CF4
+P 2400 5525
+AR Path="/5D371F58/5D534CF4" Ref="SW?"  Part="1" 
+AR Path="/5D2F9B3D/5D534CF4" Ref="SW2"  Part="1" 
+F 0 "SW2" H 2400 5992 50  0000 C CNN
+F 1 "SW_DIP_x05" H 2400 5901 50  0000 C CNN
+F 2 "Package_DIP:DIP-10_W7.62mm" H 2400 5525 50  0001 C CNN
+F 3 "~" H 2400 5525 50  0001 C CNN
+F 4 "GH7186-ND" H 2400 5525 50  0001 C CNN "VPN"
+	1    2400 5525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 5325 3125 5325
+Wire Wire Line
+	2700 5425 3125 5425
+Wire Wire Line
+	2700 5525 3125 5525
+Wire Wire Line
+	2700 5625 3125 5625
+Wire Wire Line
+	2700 5725 3125 5725
+Text Label 2725 5325 0    50   ~ 0
+ON0
+Text Label 2725 5425 0    50   ~ 0
+ON1
+Text Label 2725 5525 0    50   ~ 0
+ON2
+Text Label 2725 5625 0    50   ~ 0
+ON3
+Text Label 2725 5725 0    50   ~ 0
+ON4
+Wire Wire Line
+	1100 5325 1275 5325
+Wire Wire Line
+	2100 5425 1825 5425
+Wire Wire Line
+	2100 5525 1825 5525
+Wire Wire Line
+	2100 5625 1825 5625
+Wire Wire Line
+	2100 5725 1825 5725
+Wire Wire Line
+	1825 5725 1825 5625
+Connection ~ 1825 5325
+Wire Wire Line
+	1825 5325 2100 5325
+Connection ~ 1825 5425
+Wire Wire Line
+	1825 5425 1825 5325
+Connection ~ 1825 5525
+Wire Wire Line
+	1825 5525 1825 5425
+Connection ~ 1825 5625
+Wire Wire Line
+	1825 5625 1825 5525
+Entry Wire Line
+	3125 5325 3225 5225
+Entry Wire Line
+	3125 5425 3225 5325
+Entry Wire Line
+	3125 5525 3225 5425
+Entry Wire Line
+	3125 5625 3225 5525
+Entry Wire Line
+	3125 5725 3225 5625
+Wire Bus Line
+	3225 4975 6675 4975
+Wire Wire Line
+	3750 3550 3750 4100
+Wire Wire Line
+	5000 3550 5000 4100
+Entry Wire Line
+	3750 4100 3850 4200
+Entry Wire Line
+	5000 4100 5100 4200
+Wire Bus Line
+	6675 4200 6675 4975
+$Comp
+L power:+12V #PWR0107
+U 1 1 5D54B335
+P 1100 5175
+F 0 "#PWR0107" H 1100 5025 50  0001 C CNN
+F 1 "+12V" H 1115 5348 50  0000 C CNN
+F 2 "" H 1100 5175 50  0001 C CNN
+F 3 "" H 1100 5175 50  0001 C CNN
+	1    1100 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 5325 1100 5175
+$Comp
+L Jumper:Jumper_2_Open JP15
+U 1 1 5D6544C5
+P 1475 5325
+F 0 "JP15" H 1475 5560 50  0000 C CNN
+F 1 "Jumper_2_Open" H 1475 5469 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1475 5325 50  0001 C CNN
+F 3 "~" H 1475 5325 50  0001 C CNN
+	1    1475 5325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 5325 1825 5325
+Wire Bus Line
+	3850 4200 6675 4200
+Wire Bus Line
+	3225 4975 3225 5625
+$Sheet
+S 5425 2900 650  800 
+U 5D550704
+F0 "sheet5D550704" 50
+F1 "sense-relay.sch" 50
+F2 "SENSE" I L 5425 3050 50 
+F3 "SHIELD" I L 5425 3300 50 
+F4 "ON" I L 5425 3550 50 
+$EndSheet
+Wire Wire Line
+	5425 3550 5000 3550
+Wire Wire Line
+	4950 3300 5425 3300
+Wire Wire Line
+	5050 3050 5425 3050
+$EndSCHEMATC

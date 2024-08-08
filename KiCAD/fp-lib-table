@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name iv-mux)(type KiCad)(uri ${KIPRJMOD}/iv-mux.pretty)(options "")(descr ""))
+  (lib (name passthrough)(type KiCad)(uri ${KIPRJMOD}/passthrough.pretty)(options "")(descr ""))
+)
